@@ -1,0 +1,23 @@
+# Configuración local y del editor
+.vscode/
+*.code-workspace
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Dependencias de live-server y otros paquetes
+node_modules/
+
+# Archivos generados por Tailwind CSS
+dist/
+build/
+*.css.map
+output.css

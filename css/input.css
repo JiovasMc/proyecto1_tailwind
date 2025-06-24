@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@plugin "@midudev/tailwind-animations";
+
+@font-face {
+  font-family: 'Regular';
+  src: url('/assets/DMseriftText-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 100 500;
+  font-display: swap;
+  
+}
+
+
+@theme {
+    /*aquí puedes definir tus variables de tema*/
+  --color-primary: #4a90e2;
+  --color-secondary: #2403fc;   
+
+  /* fuentes */
+ --font-primary: 'DMseriftText-Regular', sans-serif;
+
+/*breakponts */
+--breakpoint-xsm: 450px;
+  /*--breakpoint-xsm: 'max': '350px';*/
+  /*--breakpoint-xsm: 'min': '50px';*/
+
+  /*las variables funcionan con muchas cosas, revisar la documación 
+  para ver a que lo puedes aplciar*/
+}   
+
+
+
+.social-buttons {
+  /* con @apply podemos usar las clases tailwind solo las traemos las que ocupemos
+  y pones la clase en el elemento html*/
+  @apply p-2 size-12 sm:size-16 flex items-center
+        justify-center rounded-full hover:scale-110 transition-transform;
+}

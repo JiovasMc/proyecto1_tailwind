@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>!-->
+    <link rel="stylesheet" href="./assets/output.css">
+    <title>TailWind CSS</title>
+</head>
+
+<body class="bg-indigo-200 max-w-3xl mx-auto min-h-screen
+   bg-gradient-to-b from-cyan-500 via-cyan-800 to-cyan-950 font-primary">
+
+    <head>
+        <img alt="Jiovany Martínez" class="h-96 object-cover mask-radial-at-center mask-radial-from-55%
+            mask-radial-to-70% flex justify-center mx-auto mt-7" src="./assets/img/jio.jpg" />
+        <br>
+        <div class="text-center text-3xl font-bold text-white">
+            Jiovany Martínez
+        </div>
+        <br>
+        <div class="flex gap-2 justify-center items-center animate-slide-up-fade animate-delay-150">
+            <a class="bg-purple-400 social-buttons" href="" target="_blank" aria-label="Twitch">
+                <svg width="28" heigth="28">
+                    <use xlink:href="./assets/sprite.svg#twitch" />
+                </svg>
+            </a>
+
+            <a class="bg-black social-buttons" href="" target="_blank" aria-label="GitHub">
+                <svg width="28" heigth="28">
+                    <use xlink:href="./assets/sprite.svg#github" />
+                </svg>
+            </a>
+
+            <a class="bg-white social-buttons" href="" target="_blank" aria-label="linkedin">
+                <svg width="28" heigth="28">
+                    <use xlink:href="./assets/sprite.svg#linkedin" />
+                </svg>
+            </a>
+
+            <!--
+            elemento sin @aply
+            <a class="bg-white p-2 size-12 sm:size-16 flex items-center 
+        justify-center rounded-full hover:scale-110 transition-transform" href="" target="_blank"
+                aria-label="linkedin">
+                <svg width="28" heigth="28">
+                    <use xlink:href="./assets/sprite.svg#linkedin" />
+                </svg>
+            </a>-->
+
+            <a class="social-buttons
+        bg-gradient-to-tr from-yellow-400 via-pink-400 to-purple-600" href="" target="_blank" aria-label="instagram">
+                <svg width="28" heigth="28">
+                    <use xlink:href="./assets/sprite.svg#instagram" />
+                </svg>
+            </a>
+        </div>
+    </head>
+
+    <br>
+    <p class="text-center text-lg text-white">
+        Frontend Developer
+    </p>
+    <br>
+    <p class="text-center text-lg text-white px-4 text-balance">
+        Soy un desarrollador frontend con experiencia en HTML, CSS y JavaScript. Me apasiona crear interfaces de usuario
+        atractivas y funcionales.
+    </p>
+    <br>
+
+    <main class="pt-4">
+        <div class="grid grid-cols-3 grid-rows-2 gap-2 w-full">
+
+            <a href="" target="_blank" class="relative rounded-3xl overflow-hidden
+            bg-gradient-to-br from-[#E44D26] via-[#F16529] to-white text-white
+            border border-cyan-900 flex flex-col items-start
+            hover:scale-105 hover:contrast-125 transition col-span-2
+            p-2 min-h-36 group">
+
+                <span class="absolute bottom-2 left-2 font-bold text-2xl text-white z-10">
+                    HTML
+                </span>
+                <svg class="absolute -right-2 -bottom-2 p-2 size-24 group-hover:scale-125" width="100" height="100">
+                    <use xlink:href="./assets/sprite.svg#html" />
+                </svg>
+
+                <span class="absolute top-2 left-2 text-white text-xs
+                border rounded-xl px-1 py-0.5">
+                    10 proyectos</span>
+            </a>
+
+            <a href="" target="_blank" class="relative rounded-3xl overflow-hidden
+            bg-gradient-to-br from-[#663399] via-[#8e44ad] to-white text-white
+            border border-cyan-900 flex flex-col items-start
+            hover:scale-105 hover:contrast-125 transition col-span-1
+            p-2 min-h-36 group">
+
+                <span class="absolute bottom-2 left-2 font-bold text-2xl text-white z-10 max-xsm:size-100">
+                    CSS
+                </span>
+                <svg class="absolute -right-2 -bottom-2 p-3 size-24 group-hover:scale-125" width="100" height="100">
+                    <use xlink:href="./assets/sprite.svg#css" />
+                </svg>
+
+                <span class="absolute top-2 left-2 text-white text-xs
+                border rounded-xl px-1 py-0.5">
+                    10 proyectos</span>
+            </a>
+
+            <a href="" target="_blank" class="relative rounded-3xl overflow-hidden
+            bg-gradient-to-br from-[#F7DF1E] via-[#F5DE1E]  text-white
+            border border-cyan-900 flex flex-col items-start
+            hover:scale-105 hover:contrast-125 transition col-span-1
+            p-2 min-h-36 group">
+
+                <span class="absolute bottom-2 left-2 font-bold text-2xl text-black z-10 max-sm:size-100">
+                    JavaScript
+                </span>
+                <svg class="absolute -right-2 -bottom-2 p-2 size-28 group-hover:scale-125" width="100" height="100">
+                    <use xlink:href="./assets/sprite.svg#javascript" />
+                </svg>
+
+                <span class="absolute top-2 left-2 text-black text-xs
+                border rounded-xl px-1 py-0.5">
+                    10 proyectos</span>
+            </a>
+
+            <a href="" target="_blank" class="relative rounded-3xl overflow-hidden
+            bg-gradient-to-br from-[#003366] via-[#004080] to-white text-white
+            border border-cyan-900 flex flex-col items-start
+            hover:scale-105 hover:contrast-125 transition col-span-2
+            p-2 min-h-36 group">
+
+                <span class="absolute bottom-2 left-2 font-bold text-2xl text-white z-10">
+                    SQL Server
+                </span>
+                <svg class="absolute -right-2 -bottom-2 p-2 size-28 group-hover:scale-125" width="100" height="100">
+                    <use xlink:href="./assets/sprite.svg#sql" />
+                </svg>
+
+                <span class="absolute top-2 left-2 text-white text-xs
+                border rounded-xl px-1 py-0.5">
+                    10 proyectos</span>
+            </a>
+
+        </div>
+    </main>
+
+    <footer class="text-center text-white p-2 mt-4 text-sm px-4 text-balance">
+        Derechos reservados
+    </footer>
+</body>
+
+</html>
